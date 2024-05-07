@@ -45,26 +45,26 @@ img{
    justify-content: center;
    align-items: center;
    
+   
 }
 
 .text > input{
     width: 30vw; 
     height: 8vh;
-    border-color: #2BB462;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 10px;
     margin: 15px;
     background: #ffffff;
     font-size: 15px;
-    box-shadow: 1px 1px 1px #2BB462;
-    outline: none;
     box-sizing: border-box;
     text-align: center;
+    border-color: #2BB462;
    
 }
 
 .text > input::placeholder{
     color: #000000;
+    font-weight: 700;
 }
 
 
@@ -83,9 +83,6 @@ img{
     color: #ffffff;
     background: #2BB462;
     cursor: pointer;
-    box-shadow: 0px 10px 40px -12px #00ff8052;
-   
-
 }
 
 h2{
@@ -93,6 +90,7 @@ h2{
     margin: 10px;
     color: #030303d0;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 
